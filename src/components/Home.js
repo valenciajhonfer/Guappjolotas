@@ -15,7 +15,7 @@ export const Home = () => {
 
     useEffect(() => {
         if (productFlag === null) {
-            getProducto(URL_GUAJOLOTAS) //BY DEFAULT, THIS IS THE PAGE WE SHOW WHEN FIRST LOAD
+            getProducto(URL_GUAJOLOTAS) //Muestra al cargar la página
         }
 
     }, [])
